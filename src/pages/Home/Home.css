@@ -1,0 +1,76 @@
+.home-main-container {
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://img.freepik.com/free-vector/circles-background-dark-tones_60389-166.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.white-inner-box {
+  background-color: rgb(239, 239, 239);
+  width: 90%;
+  height: 700px;
+  border-radius: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  gap: 3rem;
+  padding-bottom: 5rem;
+}
+.box-top-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 0.2rem 3rem;
+  border-radius: 1rem;
+  gap: 2rem;
+}
+.box-top-content button {
+  border-radius: 0.1rem;
+  background-color: rgb(246, 101, 101);
+  color: white;
+  font-weight: 900;
+  border: 1px solid transparent;
+  border-radius: 0.3rem;
+  transition: all linear 0.3s;
+  transform: translateX(0px);
+}
+
+.box-top-content p {
+  color: grey;
+}
+.box-bottom-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.box-bottom-content button {
+  cursor: pointer;
+  padding: 0.1rem 0.3rem;
+  background-color: white;
+  font-weight: 900;
+  border: 1px solid transparent;
+  border-radius: 0.3rem;
+}
+
+.graph-secrete-container table {
+  padding: 1rem 3rem;
+  background-color: white;
+  border-radius: 1rem;
+}
+table thead th {
+  font-weight: 900;
+  color: black;
+}
+table tbody {
+  padding-top: 3rem;
+  color: gray;
+}
